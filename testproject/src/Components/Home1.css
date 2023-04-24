@@ -1,0 +1,7 @@
+body
+{
+    background-image:url("./bg1.jpg") ;
+    background-repeat: no-repeat, repeat;
+    background-size: 1600px 712px;
+    opacity: 100.0;
+}

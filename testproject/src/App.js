@@ -1,23 +1,9 @@
-import React from 'react';
-import Child from './Child'
-class App extends React.Component{
-	
-	state = {
-		name: "",
-	}
-
-	handleCallback = (childData) =>{
-		this.setState({name: childData})
-	}
-
-	render(){
-		const {name} = this.state;
-		return(
-			<div>
-				<Child parentCallback = {this.handleCallback}/>
-				{name}
-			</div>
-		)
-	}
+import React from "react";
+import Home1 from "./Components/Home1";
+export default function App(){
+	return(
+		<div>
+			<Home1/>
+		</div>
+	)
 }
-export default App
